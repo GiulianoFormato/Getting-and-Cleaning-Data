@@ -48,8 +48,8 @@ mean.std.features.names <- gsub("BodyBody", "Body", mean.std.features.names)
 test.subject <- as.factor(read.table("UCI HAR Dataset/test/subject_test.txt", header = F)[,1])
 
 # activities as factor
-test.activities <- as.factor(read.table("UCI HAR Dataset/test/y_test.txt", header = F)[,1])
-test.activities <- activities[test.activities]
+test.activities <- as.numeric(read.table("UCI HAR Dataset/test/y_test.txt", header = F)[,1])
+test.activities <- as.factor(activities[test.activities])
 
 # features data
 test.data <- read.table("UCI HAR Dataset/test/X_test.txt", header = F)[mean.std.features.index]
@@ -71,8 +71,8 @@ test.data <- cbind(subjectid=test.subject, test.data)
 training.subject <- as.factor(read.table("UCI HAR Dataset/train/subject_train.txt", header = F)[,1])
 
 # activities as factor
-training.activities <- as.factor(read.table("UCI HAR Dataset/train/y_train.txt", header = F)[,1])
-training.activities <- activities[training.activities]
+training.activities <- as.numeric(read.table("UCI HAR Dataset/train/y_train.txt", header = F)[,1])
+training.activities <- as.factor(activities[training.activities])
 
 # features data
 training.data <- read.table("UCI HAR Dataset/train/X_train.txt", header = F)[mean.std.features.index]

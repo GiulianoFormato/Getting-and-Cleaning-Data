@@ -47,7 +47,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing.
 
-These signals were used to estimate variables (mean and standard deviation) of the feature vector for each pattern:
+These signals were used to estimate variables (mean and standard deviation) of the feature vector for each pattern.
 
 
 ## Time Domain Variables

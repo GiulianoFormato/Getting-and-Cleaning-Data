@@ -9,7 +9,10 @@ This code book describes the dataset contained in the file tidy_data.txt. This d
 	
 # Variables
 
+In this section of the codebook we list the variables name
+
 ## Time Domain Variables
+* mean of the accelerometer features
 	+ TimeDomainBodyAccelerometerMeanX
 	+ TimeDomainBodyAccelerometerMeanY
 	+ TimeDomainBodyAccelerometerMeanZ

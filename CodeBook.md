@@ -4,6 +4,7 @@ This code book describes the dataset contained in the file tidy_data.txt. This d
 
 # Keys
 
+The script collect all the data contained in the source dataset and merge them together. The result dataset rows are identified by the following keys
 	* subjectid
 	* activity
 	

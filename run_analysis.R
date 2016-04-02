@@ -1,6 +1,4 @@
 # setting env
-
-setwd("~/Data Science Spec/R practice/3.Data Read&Clean&Manipulating/Assignment Project/")
 rm(list = ls())
 library(reshape2)
 
@@ -92,10 +90,7 @@ all.data <- rbind(test.data, training.data)
 all.data.melted <- melt(all.data, id = c("subjectid", "activity"))
 all.data.mean <- dcast(all.data.melted, subjectid + activity ~ variable, mean)
 
-#head(test.data.mean)
+# writing output in a file
 if (file.exists("tidy_data.txt"))
     file.remove("tidy_data.txt")
 write.table(all.data.mean, "tidy_data.txt", row.names = FALSE, quote = FALSE)
-
-#write.table(mean.std.features.names, "tidy_data_names.txt", row.names = FALSE, quote = FALSE, col.names = F)
-#write.table(x = gsub(x = tolower(activities),pattern = "_",replacement = " "), "tidy_activities_names.txt", row.names = FALSE, quote = FALSE, col.names = F)

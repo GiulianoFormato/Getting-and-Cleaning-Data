@@ -93,4 +93,4 @@ all.data.mean <- dcast(all.data.melted, subjectid + activity ~ variable, mean)
 # writing output in a file
 if (file.exists("tidy_data.txt"))
     file.remove("tidy_data.txt")
-write.table(all.data.mean, "tidy_data.txt", row.names = FALSE, quote = FALSE)
+write.table(all.data.mean, "tidy_data.txt", row.names = FALSE)

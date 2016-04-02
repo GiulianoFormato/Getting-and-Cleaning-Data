@@ -10,9 +10,16 @@ The script collect all the data contained in the source dataset and merge them t
 The result dataset rows are identified by the following keys:
 
 * subjectid
-	+ it is the test volunteer identifier (30 volunteers)
+	+ it is the identifier of the test volunteer (30 volunteers)
 * activity
 	+ for any row, it is the activity state of the volunteer when the row measurements were retrieved
+		+ walking
+		+ walking upstairs
+		+ walking downstairs
+		+ sitting
+		+ standing
+		+ laying
+
 
 	
 # Average of the measurements
@@ -20,10 +27,20 @@ The result dataset rows are identified by the following keys:
 
 In this section of the codebook we list the dataset variables name. 
 The variables contain the average of each variable contained in the source dataset for each activity and each subject.
+The features of the datasource come from the accelerometer and gyroscope 3-axial raw signals.
+These time domain signals were captured at a constant rate of 50 Hz. 
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals 
+using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals.
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing.
+
+These signals were used to estimate variables (mean and standard deviation) of the feature vector for each pattern:
+
 
 ## Time Domain Variables
 
-* mean of the accelerometer features
 	+ TimeDomainBodyAccelerometerMeanX
 	+ TimeDomainBodyAccelerometerMeanY
 	+ TimeDomainBodyAccelerometerMeanZ

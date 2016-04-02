@@ -1,6 +1,4 @@
 # setting env
-
-setwd("~/Data Science Spec/R practice/3.Data Read&Clean&Manipulating/Assignment Project/")
 rm(list = ls())
 library(reshape2)
 

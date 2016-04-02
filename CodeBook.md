@@ -20,7 +20,7 @@ The result dataset rows are identified by the following keys:
 		+ standing
 		+ laying
 
-
+In R these variable are factors.
 	
 # Average of the measurements
 
@@ -51,6 +51,8 @@ These signals were used to estimate variables (mean and standard deviation) of t
 
 
 ## Time Domain Variables
+
+All variables are numeric.
 
 * TimeDomainBodyAccelerometerMeanX
 * TimeDomainBodyAccelerometerMeanY
@@ -94,6 +96,8 @@ These signals were used to estimate variables (mean and standard deviation) of t
 * TimeDomainBodyGyroscopeJerksignalsMagnitudeStandard
 	
 ## Frequency Domain Variables
+
+All variables are numeric.
 
 * FrequencyDomainBodyAccelerometerMeanX
 * FrequencyDomainBodyAccelerometerMeanY

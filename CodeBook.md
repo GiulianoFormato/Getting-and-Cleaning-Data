@@ -1,79 +1,94 @@
-+ TimeDomainBodyAccelerometerMeanX
-+ TimeDomainBodyAccelerometerMeanY
-+ TimeDomainBodyAccelerometerMeanZ
-+ TimeDomainBodyAccelerometerStandardX
-+ TimeDomainBodyAccelerometerStandardY
-+ TimeDomainBodyAccelerometerStandardZ
-+ TimeDomainGravityAccelerometerMeanX
-+ TimeDomainGravityAccelerometerMeanY
-+ TimeDomainGravityAccelerometerMeanZ
-+ TimeDomainGravityAccelerometerStandardX
-+ TimeDomainGravityAccelerometerStandardY
-+ TimeDomainGravityAccelerometerStandardZ
-+ TimeDomainBodyAccelerometerJerksignalsMeanX
-+ TimeDomainBodyAccelerometerJerksignalsMeanY
-+ TimeDomainBodyAccelerometerJerksignalsMeanZ
-+ TimeDomainBodyAccelerometerJerksignalsStandardX
-+ TimeDomainBodyAccelerometerJerksignalsStandardY
-+ TimeDomainBodyAccelerometerJerksignalsStandardZ
-+ TimeDomainBodyGyroscopeMeanX
-+ TimeDomainBodyGyroscopeMeanY
-+ TimeDomainBodyGyroscopeMeanZ
-+ TimeDomainBodyGyroscopeStandardX
-+ TimeDomainBodyGyroscopeStandardY
-+ TimeDomainBodyGyroscopeStandardZ
-+ TimeDomainBodyGyroscopeJerksignalsMeanX
-+ TimeDomainBodyGyroscopeJerksignalsMeanY
-+ TimeDomainBodyGyroscopeJerksignalsMeanZ
-+ TimeDomainBodyGyroscopeJerksignalsStandardX
-+ TimeDomainBodyGyroscopeJerksignalsStandardY
-+ TimeDomainBodyGyroscopeJerksignalsStandardZ
-+ TimeDomainBodyAccelerometerMagnitudeMean
-+ TimeDomainBodyAccelerometerMagnitudeStandard
-+ TimeDomainGravityAccelerometerMagnitudeMean
-+ TimeDomainGravityAccelerometerMagnitudeStandard
-+ TimeDomainBodyAccelerometerJerksignalsMagnitudeMean
-+ TimeDomainBodyAccelerometerJerksignalsMagnitudeStandard
-+ TimeDomainBodyGyroscopeMagnitudeMean
-+ TimeDomainBodyGyroscopeMagnitudeStandard
-+ TimeDomainBodyGyroscopeJerksignalsMagnitudeMean
-+ TimeDomainBodyGyroscopeJerksignalsMagnitudeStandard
-+ FrequencyDomainBodyAccelerometerMeanX
-+ FrequencyDomainBodyAccelerometerMeanY
-+ FrequencyDomainBodyAccelerometerMeanZ
-+ FrequencyDomainBodyAccelerometerStandardX
-+ FrequencyDomainBodyAccelerometerStandardY
-+ FrequencyDomainBodyAccelerometerStandardZ
-+ FrequencyDomainBodyAccelerometerMeanFrequencyX
-+ FrequencyDomainBodyAccelerometerMeanFrequencyY
-+ FrequencyDomainBodyAccelerometerMeanFrequencyZ
-+ FrequencyDomainBodyAccelerometerJerksignalsMeanX
-+ FrequencyDomainBodyAccelerometerJerksignalsMeanY
-+ FrequencyDomainBodyAccelerometerJerksignalsMeanZ
-+ FrequencyDomainBodyAccelerometerJerksignalsStandardX
-+ FrequencyDomainBodyAccelerometerJerksignalsStandardY
-+ FrequencyDomainBodyAccelerometerJerksignalsStandardZ
-+ FrequencyDomainBodyAccelerometerJerksignalsMeanFrequencyX
-+ FrequencyDomainBodyAccelerometerJerksignalsMeanFrequencyY
-+ FrequencyDomainBodyAccelerometerJerksignalsMeanFrequencyZ
-+ FrequencyDomainBodyGyroscopeMeanX
-+ FrequencyDomainBodyGyroscopeMeanY
-+ FrequencyDomainBodyGyroscopeMeanZ
-+ FrequencyDomainBodyGyroscopeStandardX
-+ FrequencyDomainBodyGyroscopeStandardY
-+ FrequencyDomainBodyGyroscopeStandardZ
-+ FrequencyDomainBodyGyroscopeMeanFrequencyX
-+ FrequencyDomainBodyGyroscopeMeanFrequencyY
-+ FrequencyDomainBodyGyroscopeMeanFrequencyZ
-+ FrequencyDomainBodyAccelerometerMagnitudeMean
-+ FrequencyDomainBodyAccelerometerMagnitudeStandard
-+ FrequencyDomainBodyAccelerometerMagnitudeMeanFrequency
-+ FrequencyDomainBodyAccelerometerJerksignalsMagnitudeMean
-+ FrequencyDomainBodyAccelerometerJerksignalsMagnitudeStandard
-+ FrequencyDomainBodyAccelerometerJerksignalsMagnitudeMeanFrequency
-+ FrequencyDomainBodyGyroscopeMagnitudeMean
-+ FrequencyDomainBodyGyroscopeMagnitudeStandard
-+ FrequencyDomainBodyGyroscopeMagnitudeMeanFrequency
-+ FrequencyDomainBodyGyroscopeJerksignalsMagnitudeMean
-+ FrequencyDomainBodyGyroscopeJerksignalsMagnitudeStandard
-+ FrequencyDomainBodyGyroscopeJerksignalsMagnitudeMeanFrequency
+# Introduction
+
+This code book describes the dataset contained in the file tidy_data.txt. This dataset is the result of the script "run_analysis.R"
+
+# Keys
+
+	* subjectid
+	* activity
+	
+# Variables
+
+## Time Domain Variables
+	+ TimeDomainBodyAccelerometerMeanX
+	+ TimeDomainBodyAccelerometerMeanY
+	+ TimeDomainBodyAccelerometerMeanZ
+	+ TimeDomainBodyAccelerometerStandardX
+	+ TimeDomainBodyAccelerometerStandardY
+	+ TimeDomainBodyAccelerometerStandardZ
+	+ TimeDomainGravityAccelerometerMeanX
+	+ TimeDomainGravityAccelerometerMeanY
+	+ TimeDomainGravityAccelerometerMeanZ
+	+ TimeDomainGravityAccelerometerStandardX
+	+ TimeDomainGravityAccelerometerStandardY
+	+ TimeDomainGravityAccelerometerStandardZ
+	+ TimeDomainBodyAccelerometerJerksignalsMeanX
+	+ TimeDomainBodyAccelerometerJerksignalsMeanY
+	+ TimeDomainBodyAccelerometerJerksignalsMeanZ
+	+ TimeDomainBodyAccelerometerJerksignalsStandardX
+	+ TimeDomainBodyAccelerometerJerksignalsStandardY
+	+ TimeDomainBodyAccelerometerJerksignalsStandardZ
+	+ TimeDomainBodyGyroscopeMeanX
+	+ TimeDomainBodyGyroscopeMeanY
+	+ TimeDomainBodyGyroscopeMeanZ
+	+ TimeDomainBodyGyroscopeStandardX
+	+ TimeDomainBodyGyroscopeStandardY
+	+ TimeDomainBodyGyroscopeStandardZ
+	+ TimeDomainBodyGyroscopeJerksignalsMeanX
+	+ TimeDomainBodyGyroscopeJerksignalsMeanY
+	+ TimeDomainBodyGyroscopeJerksignalsMeanZ
+	+ TimeDomainBodyGyroscopeJerksignalsStandardX
+	+ TimeDomainBodyGyroscopeJerksignalsStandardY
+	+ TimeDomainBodyGyroscopeJerksignalsStandardZ
+	+ TimeDomainBodyAccelerometerMagnitudeMean
+	+ TimeDomainBodyAccelerometerMagnitudeStandard
+	+ TimeDomainGravityAccelerometerMagnitudeMean
+	+ TimeDomainGravityAccelerometerMagnitudeStandard
+	+ TimeDomainBodyAccelerometerJerksignalsMagnitudeMean
+	+ TimeDomainBodyAccelerometerJerksignalsMagnitudeStandard
+	+ TimeDomainBodyGyroscopeMagnitudeMean
+	+ TimeDomainBodyGyroscopeMagnitudeStandard
+	+ TimeDomainBodyGyroscopeJerksignalsMagnitudeMean
+	+ TimeDomainBodyGyroscopeJerksignalsMagnitudeStandard
+	
+## Frequency Domain Variables
+
+	+ FrequencyDomainBodyAccelerometerMeanX
+	+ FrequencyDomainBodyAccelerometerMeanY
+	+ FrequencyDomainBodyAccelerometerMeanZ
+	+ FrequencyDomainBodyAccelerometerStandardX
+	+ FrequencyDomainBodyAccelerometerStandardY
+	+ FrequencyDomainBodyAccelerometerStandardZ
+	+ FrequencyDomainBodyAccelerometerMeanFrequencyX
+	+ FrequencyDomainBodyAccelerometerMeanFrequencyY
+	+ FrequencyDomainBodyAccelerometerMeanFrequencyZ
+	+ FrequencyDomainBodyAccelerometerJerksignalsMeanX
+	+ FrequencyDomainBodyAccelerometerJerksignalsMeanY
+	+ FrequencyDomainBodyAccelerometerJerksignalsMeanZ
+	+ FrequencyDomainBodyAccelerometerJerksignalsStandardX
+	+ FrequencyDomainBodyAccelerometerJerksignalsStandardY
+	+ FrequencyDomainBodyAccelerometerJerksignalsStandardZ
+	+ FrequencyDomainBodyAccelerometerJerksignalsMeanFrequencyX
+	+ FrequencyDomainBodyAccelerometerJerksignalsMeanFrequencyY
+	+ FrequencyDomainBodyAccelerometerJerksignalsMeanFrequencyZ
+	+ FrequencyDomainBodyGyroscopeMeanX
+	+ FrequencyDomainBodyGyroscopeMeanY
+	+ FrequencyDomainBodyGyroscopeMeanZ
+	+ FrequencyDomainBodyGyroscopeStandardX
+	+ FrequencyDomainBodyGyroscopeStandardY
+	+ FrequencyDomainBodyGyroscopeStandardZ
+	+ FrequencyDomainBodyGyroscopeMeanFrequencyX
+	+ FrequencyDomainBodyGyroscopeMeanFrequencyY
+	+ FrequencyDomainBodyGyroscopeMeanFrequencyZ
+	+ FrequencyDomainBodyAccelerometerMagnitudeMean
+	+ FrequencyDomainBodyAccelerometerMagnitudeStandard
+	+ FrequencyDomainBodyAccelerometerMagnitudeMeanFrequency
+	+ FrequencyDomainBodyAccelerometerJerksignalsMagnitudeMean
+	+ FrequencyDomainBodyAccelerometerJerksignalsMagnitudeStandard
+	+ FrequencyDomainBodyAccelerometerJerksignalsMagnitudeMeanFrequency
+	+ FrequencyDomainBodyGyroscopeMagnitudeMean
+	+ FrequencyDomainBodyGyroscopeMagnitudeStandard
+	+ FrequencyDomainBodyGyroscopeMagnitudeMeanFrequency
+	+ FrequencyDomainBodyGyroscopeJerksignalsMagnitudeMean
+	+ FrequencyDomainBodyGyroscopeJerksignalsMagnitudeStandard
+	+ FrequencyDomainBodyGyroscopeJerksignalsMagnitudeMeanFrequency

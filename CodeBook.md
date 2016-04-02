@@ -6,7 +6,7 @@ This dataset is the result of the script "run_analysis.R" which has as source da
 
 # Keys
 
-The script collect all the data contained in the source dataset and merge them together. 
+The script collects all the data contained in the source dataset and merge them together. 
 The result dataset rows are identified by the following keys:
 
 * subjectid
@@ -26,7 +26,7 @@ The result dataset rows are identified by the following keys:
 
 
 In this section of the codebook we list the dataset variables name. 
-The variables contain the average of meand or standard deviation variable contained in the source dataset for each activity and each subject.
+The variables contain the average of mean or standard deviation variable contained in the source dataset for each keys couple.
 The features of the datasource come from the accelerometer and gyroscope 3-axial raw signals.
 These time domain signals were captured at a constant rate of 50 Hz. 
 Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
